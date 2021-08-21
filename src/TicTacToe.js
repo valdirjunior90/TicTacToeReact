@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './TicTacToe.css';
 
 const TicTacToe = () => {
-  const [turn, setTurn] = useState('x');
+  const [turn, setTurn] = useState('X');
   const [cells, setCells] = useState(Array(9).fill(''));
   const [winner, setWinner] = useState();
 
